@@ -1,0 +1,191 @@
+%PDF-1.3%‚„œ”
+1 0 obj<</Metadata 2 0 R/Pages 3 0 R/Type/Catalog>>endobj2 0 obj<</Length 18875/Subtype/XML/Type/Metadata>>stream
+<?xpacket begin="Ôªø" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.0-c060 61.134777, 2010/02/12-17:32:00        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:dc="http://purl.org/dc/elements/1.1/">
+         <dc:format>application/pdf</dc:format>
+         <dc:title>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">atmega328</rdf:li>
+            </rdf:Alt>
+         </dc:title>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:xmpGImg="http://ns.adobe.com/xap/1.0/g/img/">
+         <xmp:MetadataDate>2014-02-08T23:43:17-08:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2014-02-08T23:43:17-08:00</xmp:ModifyDate>
+         <xmp:CreateDate>2014-02-08T23:43:17-08:00</xmp:CreateDate>
+         <xmp:CreatorTool>Adobe Illustrator CS5.1</xmp:CreatorTool>
+         <xmp:Thumbnails>
+            <rdf:Alt>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpGImg:width>104</xmpGImg:width>
+                  <xmpGImg:height>256</xmpGImg:height>
+                  <xmpGImg:format>JPEG</xmpGImg:format>
+                  <xmpGImg:image>/9j/4AAQSkZJRgABAgEASABIAAD/7QAsUGhvdG9zaG9wIDMuMAA4QklNA+0AAAAAABAASAAAAAEA&#xA;AQBIAAAAAQAB/+4ADkFkb2JlAGTAAAAAAf/bAIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoK&#xA;DBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxscHx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8f&#xA;Hx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgBAABoAwER&#xA;AAIRAQMRAf/EAaIAAAAHAQEBAQEAAAAAAAAAAAQFAwIGAQAHCAkKCwEAAgIDAQEBAQEAAAAAAAAA&#xA;AQACAwQFBgcICQoLEAACAQMDAgQCBgcDBAIGAnMBAgMRBAAFIRIxQVEGE2EicYEUMpGhBxWxQiPB&#xA;UtHhMxZi8CRygvElQzRTkqKyY3PCNUQnk6OzNhdUZHTD0uIIJoMJChgZhJRFRqS0VtNVKBry4/PE&#xA;1OT0ZXWFlaW1xdXl9WZ2hpamtsbW5vY3R1dnd4eXp7fH1+f3OEhYaHiImKi4yNjo+Ck5SVlpeYmZ&#xA;qbnJ2en5KjpKWmp6ipqqusra6voRAAICAQIDBQUEBQYECAMDbQEAAhEDBCESMUEFURNhIgZxgZEy&#xA;obHwFMHR4SNCFVJicvEzJDRDghaSUyWiY7LCB3PSNeJEgxdUkwgJChgZJjZFGidkdFU38qOzwygp&#xA;0+PzhJSktMTU5PRldYWVpbXF1eX1RlZmdoaWprbG1ub2R1dnd4eXp7fH1+f3OEhYaHiImKi4yNjo&#xA;+DlJWWl5iZmpucnZ6fkqOkpaanqKmqq6ytrq+v/aAAwDAQACEQMRAD8A9U4q+Brq6uLu5lurmRpb&#xA;idzJNKxqzMxqSfmcKqWKuxV2KvWvIf8AzkN5h8vWUOmatbDWLCBQkEhcx3KIOi8yHDqvYEV98VZz&#xA;J/zlL5YEVY9GvWlpsjNEq1/1gzH/AIXAry78xfzq8y+c4DYemumaOTyayhYu0hBqvqyELzp4AAe2&#xA;FXnuKuxV2Ks0/Ju5uIPzM0EwyNH6lx6cnEkckZSGU06g+GKvsrAqU/4msP8Afcv3L/zVhpXw7ZWd&#xA;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</xmpGImg:image>
+               </rdf:li>
+            </rdf:Alt>
+         </xmp:Thumbnails>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#">
+         <xmpMM:InstanceID>uuid:df222951-e232-a04b-9ac7-36e99c166455</xmpMM:InstanceID>
+         <xmpMM:DocumentID>xmp.did:FA7F11740720681188C6C2F9C279E7EB</xmpMM:DocumentID>
+         <xmpMM:OriginalDocumentID>uuid:5D20892493BFDB11914A8590D31508C8</xmpMM:OriginalDocumentID>
+         <xmpMM:RenditionClass>proof:pdf</xmpMM:RenditionClass>
+         <xmpMM:DerivedFrom rdf:parseType="Resource">
+            <stRef:instanceID>xmp.iid:F97F11740720681188C6C2F9C279E7EB</stRef:instanceID>
+            <stRef:documentID>xmp.did:F97F11740720681188C6C2F9C279E7EB</stRef:documentID>
+            <stRef:originalDocumentID>uuid:5D20892493BFDB11914A8590D31508C8</stRef:originalDocumentID>
+            <stRef:renditionClass>proof:pdf</stRef:renditionClass>
+         </xmpMM:DerivedFrom>
+         <xmpMM:History>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:F77F1174072068118C14B0B2C065DB68</stEvt:instanceID>
+                  <stEvt:when>2013-01-28T13:09:18+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CS5.1</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:03801174072068118C14C04A7398E324</stEvt:instanceID>
+                  <stEvt:when>2013-01-29T18:29:11+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CS5.1</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:F77F11740720681188C6C2F9C279E7EB</stEvt:instanceID>
+                  <stEvt:when>2014-02-08T15:25:38-08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CS5.1</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:F87F11740720681188C6C2F9C279E7EB</stEvt:instanceID>
+                  <stEvt:when>2014-02-08T23:26:26-08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CS5.1</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:F97F11740720681188C6C2F9C279E7EB</stEvt:instanceID>
+                  <stEvt:when>2014-02-08T23:42:31-08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CS5.1</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:FA7F11740720681188C6C2F9C279E7EB</stEvt:instanceID>
+                  <stEvt:when>2014-02-08T23:43:15-08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CS5.1</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:History>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:illustrator="http://ns.adobe.com/illustrator/1.0/">
+         <illustrator:StartupProfile>Print</illustrator:StartupProfile>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"
+            xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#"
+            xmlns:stFnt="http://ns.adobe.com/xap/1.0/sType/Font#"
+            xmlns:xmpG="http://ns.adobe.com/xap/1.0/g/">
+         <xmpTPg:HasVisibleOverprint>False</xmpTPg:HasVisibleOverprint>
+         <xmpTPg:HasVisibleTransparency>False</xmpTPg:HasVisibleTransparency>
+         <xmpTPg:NPages>1</xmpTPg:NPages>
+         <xmpTPg:MaxPageSize rdf:parseType="Resource">
+            <stDim:w>79.630798</stDim:w>
+            <stDim:h>109.669103</stDim:h>
+            <stDim:unit>Millimeters</stDim:unit>
+         </xmpTPg:MaxPageSize>
+         <xmpTPg:Fonts>
+            <rdf:Bag>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>TabulaITCStd-Bold</stFnt:fontName>
+                  <stFnt:fontFamily>TabulaITCStd Bold</stFnt:fontFamily>
+                  <stFnt:fontFace>Bold</stFnt:fontFace>
+                  <stFnt:fontType>Unknown</stFnt:fontType>
+                  <stFnt:versionString>Version 2.062;PS 2.000;hotconv 1.0.57;makeotf.lib2.0.21895</stFnt:versionString>
+                  <stFnt:composite>False</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+            </rdf:Bag>
+         </xmpTPg:Fonts>
+         <xmpTPg:PlateNames>
+            <rdf:Seq>
+               <rdf:li>Black</rdf:li>
+            </rdf:Seq>
+         </xmpTPg:PlateNames>
+         <xmpTPg:SwatchGroups>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpG:groupName>Default Swatch Group</xmpG:groupName>
+                  <xmpG:groupType>0</xmpG:groupType>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpTPg:SwatchGroups>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/">
+         <pdf:Producer>Adobe PDF library 9.90</pdf:Producer>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>endstreamendobj3 0 obj<</Count 1/Kids[5 0 R]/Type/Pages>>endobj5 0 obj<</BleedBox[0.0 0.0 225.725 310.873]/Contents 6 0 R/MediaBox[0.0 0.0 225.725 310.873]/Parent 3 0 R/Resources<</ExtGState<</GS0 7 0 R>>/Font<</T1_0 8 0 R>>/ProcSet[/PDF/Text]/Properties<</MC0<</Color[20224 32768 65535]/Dimmed false/Editable true/Preview true/Printed true/Title(Layer 1)/Visible true>>>>>>/TrimBox[0.0 0.0 225.725 310.873]/Type/Page>>endobj6 0 obj<</Filter/FlateDecode/Length 670>>stream
+Hâ¨V¡n€0ΩÎ+tÏfEJ¢®„⁄Ω,ábvÜ¨∞µ÷ùˆ˜£lK±/3ä H Ω<ÒQè§ìÎ˜ü?ºÿÎ˝≠≥7Ôn≠qvxŸÔÊ˙ÓÉ≥_ôü-∆Ñ…[¢úR≤áÁ·»≥È$ÄÀ¢Îß∂N¿uÔ⁄Í—‹ØÜ√)]*úC6dZ∏Ôp(	Ñ”•≤”7d À.f»Ÿo»n[∏¿‡‚Ô∂]÷  ≈≤CL[º„éœÑs(\ÃªÏ¿ojªM…%œˇÕ∑h˛ÃL_‰.’ƒLºfˇ„tÔ—Åœ|ä∂´¿ÀÉ˘h¥«P÷«–L=$»¬bâu¿)Œù&xî◊†Å–v^ß∂#ÅΩÌ4)J*Â¡1◊Ì¡t>J˚:8HHÌp  IWâÃ†˝<j∞À∫cmIV5Õ÷Â„ñ¿˘·P›;Üy8€ ı%ÈÌß`
+D)¿®‘ÄÉ^≥mûÍLÂ#†Rîè·⁄v<ò
+îåûÍnLwå4⁄} son˙Í˘ËÒSÒæ4˙Lâ|Zjù)¢ˆV Ì≠˛Ÿ\·õ˛õ—ËNª£CHZ‘˛ãπ¢
+;ú√æ±Û.hú£±ëeÛD.’;¢©í˝BPj‰9Od
+4áq$)Ö.Äõxa©Uyy¢U"‚*M&^5%‰U^ì≠.Ewû7ÿ∆ê¢éàvyàGïπ¨TYN'%öÛ™Ö—˚Øæ,µÚ∏” œ√Ü*/~Öü‹z©CU~)”/.Zâ‹DO´•Â™ñ[-Œ∑@3œÀ/˛m^»´≠“‚qÂ≠Á◊\‹’IÂÇe,¶ÖBò¡ìé#íûg˘2áo';9L˙}AÆvÂSyR/~70G∑Ày?oŒì∂Ÿıf∑◊?ä §¬endstreamendobj8 0 obj<</BaseFont/QPDBYU+TabulaITCStd-Bold/Encoding/WinAnsiEncoding/FirstChar 48/FontDescriptor 9 0 R/LastChar 84/Subtype/Type1/Type/Font/Widths[513 513 513 513 513 513 513 513 513 513 0 0 0 0 0 0 0 612 0 0 0 492 0 646 0 0 0 0 0 804 0 0 0 0 0 0 497]>>endobj9 0 obj<</Ascent 952/CapHeight 674/CharSet(/zero/one/two/three/four/five/six/seven/eight/nine/A/E/G/M/T)/Descent -250/Flags 32/FontBBox[-157 -250 1126 952]/FontFamily(Myriad Pro)/FontFile3 10 0 R/FontName/QPDBYU+TabulaITCStd-Bold/FontStretch/Normal/FontWeight 700/ItalicAngle 0/StemV 88/Type/FontDescriptor/XHeight 484>>endobj10 0 obj<</Filter/FlateDecode/Length 1565/Subtype/Type1C>>stream
+Hâ|SkPWﬁ%Ÿ*ç ∫ö›‚£8"""ÚAi—Ä≠J$QVÅhD¨µEA—µæhQÒ’QQ´‡£ä
+ÇÅV:Ít∆≥Ò∆∂~ıWˇú{øÛÕ˝Œ˝Óπ«ƒvé„.KcÃOåüß\ìô¶åäWËU”Ák“T6í·e8Ô,Ê›h4æˇ~	w∆B«¯_›»ÂéòéwÜk6fkπu©zvf@Äèß-˙éƒ9û¨è∑∑˜HÙe√Tö5jVë≠”´”ulTFäFªQ£UÍ’*/6,-çë–±ZµN≠›lK∆™JÀÈX5ßOUkY•@Æ„ÑÛZµä’kï*u∫RªÅ’ÿòˇ¿µˇSäÂ2XAãçœ‡lH°í:Vô°ö!®hF™§h23ÙZN≠Ûö©àÀﬁ®f˝Yïz-Ü·ÿ¯Qò;ÜM¡0Û¬∞Ÿ6NxC,+≈Æ`„jº NdóeW&ö(*ıâGã◊ã[ƒz‰◊Û√ı∏'’ãÚ≈¸K¨u	Ö®ëFs· C$b—Ml¿∫_b%WçÏa.0…ﬂ†m;dC“F˛¥Ø1√!≥Z¶“»ŸçAm0Ù°1@…`‚sê¬&H	)rcæ]H^tGæ(0Ÿ›'h≈+Åà€ø?e§G7ÛªÛ≥aG/uv8ıZ‰ÛHÍ1r=¥à{ÑÅîÊõ¯R|øàOv2°K…ı´|Œ}√‡‡:˚
+±aã3÷ÆñW∆U◊™Ó»ÜO}55t
+D>L‰""^"›—ﬂ7Å™≈˙ÃQ‘P›izsıΩI3∫˛bÚ¢Ôï€$‘õŒìµF◊Œ•O—Ñà(≠6U~"ö8RY¸Ü¨ÎÙ s◊G3IQ◊Hj®∑[Â]¿ƒ¨[Äƒ≤òeÂZõà4Bk/^nÓπàü‰ëFoﬁ√SÇ~±Œ"ñ¡-)A‰—	ÃÇMá´V9ÔRHÊryÁä“GÆzŒ˛m8XÃ">¬"ß—RâÖ'Nûó›;áÒ-èê}æ¸»¡çLÊ""´˙NVã>yÛP] ÜÑJ¶"%©8A¶˚:/wSAêB◊†Òxµ„g˙‡∏†ÌkÒ†ø ÃÀŸƒÏ_ø‹~qÙ™)hÇ+
+@»¡≠Ï¿{ê$<éS¶…s…r¿Z_s¨bÔq√·<{4ÕZI{%>{ó«‹[∫ØX~ıD}ıMY◊MÖóW¬íy#˝m3·ºó®Ap2Zr%Ë¨µï °Ü7çÇﬂ|›oéÁ^FıÄÆ7 Lô i ƒ%≈∏zvÅå~dGbc`µºPBµ?;Wy˜ñkwtrDﬂàIr §8•0qÚAT'úÙOl|X»‹ØΩ˛Ùòº_{K‚Jô%$ÀxÅnÔ<ø"69E±Öôw$Òl¡C{ t˚‚Uì\∫Û	6A˝#º∂ Ã¢W;È£yï’˚ö<Æ™øfˇ‡˛’◊‡Ó
+¡ÔêrÒAãDOfÅ}”çäK5ÚBr{h⁄≤d’⁄u_d%ÏNﬂìôª≈`≥¯ìÙP≠m€≥Îª]åJø2#Vö‘–5t≥©çë˛ |ôT#4∑3P¡ﬂ£⁄˘`H•[Q*!å„Vã1QX>¯/…fH%È&XAPCeµ≈u≈Ïd±™8•|ı#¥‹Y Êõ ß8˛Dï`ﬁôFe¿Aï…ä„«ô–e»Å2Rzew+höaø)-À±fêwxAÛ}éF⁄pC+…ùY™oñ…êœ‰7
+!ÔﬁÇøÒÚˆ≠5’u¨Ö†ÜÀ2bÖ»–fƒ†O—J˜öôç
+fISœ¶∑≤ÅécÂ)(Ö¶˜Ù·çñ"ãá”R)ÿ@"9†Œt?]XˆBó\2ª9≥MÛI†”Y†æ>'C]—€} 6Ù∏»É~ö]=ÏPõs	c‡Ÿô°ü{Otå"˜MóK'eÜÖ1IÓA≤S??k⁄¨9a†~zâ≈Ø≠*Å%◊J¨˙˝$ø∏-)≤jJ.ù,í»è&GÏ*˚«a‘£—˝c˙˜:|ƒO‡_—ˇ
+0 ™  qendstreamendobj7 0 obj<</AIS false/BM/Normal/CA 1.0/OP false/OPM 1/SA true/SMask/None/Type/ExtGState/ca 1.0/op false>>endobj11 0 obj<</CreationDate(D:20140208234317-08'00')/Creator(Adobe Illustrator CS5.1)/ModDate(D:20140208234317-08'00')/Producer(Adobe PDF library 9.90)/Title(atmega328)>>endobjxref0 120000000000 65535 f
+0000000016 00000 n
+0000000076 00000 n
+0000019028 00000 n
+0000000000 00000 f
+0000019079 00000 n
+0000019444 00000 n
+0000022422 00000 n
+0000020182 00000 n
+0000020443 00000 n
+0000020772 00000 n
+0000022534 00000 n
+trailer<</Size 12/Root 1 0 R/Info 11 0 R/ID[<DF5A891EEA3E4FA68C791FC113ABF166><EDD6309897C74999A5F9885EE58341EE>]>>startxref22709%%EOF
