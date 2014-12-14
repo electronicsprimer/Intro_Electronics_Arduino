@@ -3,8 +3,8 @@ Blink Turns on an LED on for one second,
 then off for one second, repeatedly. This 
 example code is in the public domain. 
 */
-// Pin 13 has an LED connected on most Arduino boards. 
-// Give it a name:
+// Using an external LED, we'll notice that both the internal 
+// and external LEDs blink at the same rate!
 int led = 13; 
 
 // the setup routine runs once when you press reset: 
