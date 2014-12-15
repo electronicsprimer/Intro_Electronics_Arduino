@@ -34,7 +34,7 @@ void setup() {
 // the loop routine runs over and over again forever:
 void loop() {
   digitalWrite(led_flicker, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1);               // wait for a second
+  delay(1);               // wait for a millisecond
   digitalWrite(led_flicker, LOW);    // turn the LED off by making the voltage LOW
-  delay(1);               // wait for a second
+  delay(1);               // wait for a millisecond
 }
