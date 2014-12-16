@@ -1,42 +1,67 @@
-int led_pin = 11;
-int button_pin = 2;     // the number of the pushbutton pin
-int debounce = 200;
+/*-----------------------------------------------------------------------
+  Acrobotic - 01/12/2014
+  Author: x1sc0
+  Platforms: Arduino Uno R3
+  File: blink_compare.ino
+  ------------------------------------------------------------------------
+  Description: 
+  We compare a fully on LED against one that is blinking very rapidly 
+  (imperceptible to our eyes at a first glance)
+  ------------------------------------------------------------------------
+  Please consider buying products from Acrobotic to help fund future
+  Open-Source projects like this! We’ll always put our best effort in every
+  project, and release all our design files and code for you to use. 
+  http://acrobotic.com/
+  ------------------------------------------------------------------------
+  License:
+  Beerware License; if you find the code useful, and we happen to cross 
+  paths, you're encouraged to buy us a beer. The code is distributed hoping
+  that you in fact find it useful, but  without warranty of any kind.
+------------------------------------------------------------------------*/
 
-// variables will change:
-int button_state = LOW;         // variable for reading the pushbutton status
-int button_state_old = LOW;         // variable for reading the pushbutton status
-int led_state = HIGH;         // variable for holding/writing the LED state
-int time;
+// Initialize 2 variables for the pins we'll be using later
+int led_pin = 11;
+int button_pin = 3;
+
+// Initialize variable that will hold the button and LED state
+int button_state = LOW;         // stores current button state
+int button_state_old = LOW;     // stores previous button state
+int led_state = LOW;            // stores previous LED state
+
+// Initialize variables used for debouncing the button state
+int time = 0;
+int bounce_wait = 200;
 
 void setup()
 {
-  // initialize the LED pin as an output:
+  // Initialize the LED pin as an output:
   pinMode(led_pin, OUTPUT);
-  digitalWrite(led_pin, led_state);
-  // initialize the pushbutton pin as an input:
+  // Initialize the pushbutton pin as an input that is internally pulled up
+  // to 5V using the built-in 20~50K resistors (ATmega328p on the Arduino Uno)
   pinMode(button_pin, INPUT_PULLUP);  
-  // initialize serial communication
-  Serial.begin(9600);
 }
 
 void loop()
 {
+  // Read the state of the pushbutton value:
   button_state = digitalRead(button_pin);
-  Serial.print("Button state= ");
-  Serial.println(button_state);
-  // if the input just went from LOW and HIGH and we've waited long enough
-  // to ignore any noise on the circuit, toggle the output pin and remember
-  // the time
-  if (button_state == HIGH && button_state_old == LOW && millis() - time > debounce) {
+  // Check if the input just went from LOW and HIGH (button release).  
+  // Also check if this LOW-to-HIGH transition hasn't ocurred in the
+  // past 200ms
+  if ( (button_state == HIGH) && 
+       (button_state_old == LOW) && 
+       ((millis() - time) > bounce_wait) ) 
+  {
+    // Check the previous state of the LED and toggle it
     if (led_state == HIGH)
       led_state = LOW;
     else
       led_state = HIGH;
-
+    // Store the current time for comparison in the next loop iteration 
     time = millis();    
   }
-
+  // Update the led pin
   digitalWrite(led_pin, led_state);
-
+  // Store the button state for comparison in the next loop iteration
   button_state_old = button_state;
 }
