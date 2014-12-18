@@ -5,8 +5,8 @@
   File: heartbeat.ino
   ------------------------------------------------------------------------
   Description: 
-  We compare a fully on LED against one that is blinking very rapidly 
-  (imperceptible to our eyes at a first glance)
+  Using the fucntion analogWrite(), we control the brightness of an LED by
+  modulating the duty cycle of a rectangular wave signal (PWM).
   ------------------------------------------------------------------------
   Please consider buying products from Acrobotic to help fund future
   Open-Source projects like this! We’ll always put our best effort in every
