@@ -34,6 +34,9 @@ int value = 0, // current brigthness
 
 void setup()
 {
+  // Technically, the next line is unnecessary.  Because we'll be driving
+  // the pin with the function analogWrite(), we don't need to set it as
+  // an OUTPUT.  It doesn't hurt to do it anyway.
   pinMode(led_pin, OUTPUT);
 }
 
