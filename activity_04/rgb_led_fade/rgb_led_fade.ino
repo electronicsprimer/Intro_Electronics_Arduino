@@ -25,20 +25,15 @@
   that you in fact find it useful, but  without warranty of any kind.
 ------------------------------------------------------------------------*/
 
-// We can change this to false if we do not want to test the pre-defined
-// colors
-#define testing true
+/* 
+  Make sure you run rgb_led_cycle.ino first, which will allow you to wire 
+  the LED and to its corresponding pin numbers on the Arduino board.
+*/
 
 // Initialize variables for the pins we'll be using later
 int r_led_pin =  9;
 int g_led_pin = 10;
 int b_led_pin = 11;
-
-#if testing == true
- int button_pin = 2;
- bool test_flag = true;
- bool in_loop = false;
-#endif
 
 // We're going to use a structure type with 3 field members, which will
 // hold the brightness level of the LED
@@ -68,13 +63,8 @@ RGB white  = { 150, 210, 255 };
 void fade( const RGB &in,
            const RGB &out,
            unsigned n_steps = 256,  // default take 256 steps
-           unsigned time    = 10)   // wait 10 ms per step
+           unsigned time    = 8)   // wait 10 ms per step
 {
-// Allows us to escape from the color test if the button is pressed
-#if testing == true
-  if(!in_loop && !test_flag)
-    return;
-#endif
   // We calculate the difference between the R, G, B values of the "from" and "to"
   // colors
   int red_diff   = out.r - in.r;
@@ -103,37 +93,10 @@ void fade( const RGB &in,
 void setup()
 {
   // Pins driven by analogWrite do not need to be declared as outputs
-
-  // These are only necessary if we're checking the colors
-#if testing == true 
-  // As usual, we wire up a push button so that when it's pressed it
-  // sends a GND signal to the pin.  We use the internal pullup
-  // resistors to make the default state HIGH
-  pinMode(button_pin, INPUT_PULLUP);
-
-  // We want to run the color test until the button is pressed.  Thus,
-  // we attacha an interrupt to pin 2 (int.0 on the Arduino Uno; cf., 
-  // http://arduino.cc/en/Reference/attachInterrupt).
-  // 
-  // The interrupt is triggered on a FALLING edge (HIGH to LOW change)
-  // and calls the function endTest
-  attachInterrupt(0, endTest, FALLING);
-  while(test_flag)
-  {
-    colorTest();
-  }
-#endif
 }
 
 void loop()
 {
-#if testing == true
-  // Update this variable to let the fade function know that we're now inside
-  // the loop and the color test has concluded
-  if(!in_loop)
-    in_loop = true;
-#endif
-
   // Fade from one color to the next by calling our fade function.  We use the 
   // default values for the 3rd (steps) and 4th (time) arguments of the function
   fade( white, green );
@@ -146,30 +109,3 @@ void loop()
   fade( blue, cyan );
   fade( cyan, white );
 }
-
-#if testing == true
- // To check the colors we've predefined, we run a fade with the same color for 
- // "in" and "out" (only that color will be displayed) and adjust the brightness
- // values above if needed.e 
- void colorTest()
- {
-   fade( green,green );
-   fade( yellow,yellow );
-   fade( orange,orange );
-   fade( red,red );
-   fade( pink,pink );
-   fade( purple,purple );
-   fade( blue,blue );
-   fade( cyan,cyan );
-   fade( white,white );
- }
- 
- // This function is called when a FALLING (HIGH to LOW) transition occurs on pin
- // 2.  We update the test_flag to let the fade function know we're done testing
- // and we detach the interrupt to avoid future triggers!
- void endTest()
- {
-   test_flag = false;
-   detachInterrupt(0);
- }
-#endif
