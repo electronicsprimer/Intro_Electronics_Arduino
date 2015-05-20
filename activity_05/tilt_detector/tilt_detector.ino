@@ -2,11 +2,16 @@
   Acrobotic - 01/12/2014
   Author: x1sc0
   Platforms: Arduino Uno R3
-  File: heartbeat.ino
+  File: tilt_detector.ino
   ------------------------------------------------------------------------
-  Description: 
-  Using the fucntion analogWrite(), we control the brightness of an LED by
-  modulating the duty cycle of a rectangular wave signal (PWM).
+  Description:
+  We make use of one of the simplest digital sensors, a tilt detector. 
+  This sensor behaves like a push button and creates a closed (short) or 
+  open circuit between its 2 pins depending on the physical inclination of
+  the sensor relative to the earth's gravitational field vector.
+  
+  We take the opportunity to introduce the concept of interrupts, and
+  explore the microcontroller's low-power (sleep) modes.
   ------------------------------------------------------------------------
   Please consider buying products from Acrobotic to help fund future
   Open-Source projects like this! We’ll always put our best effort in every
@@ -18,12 +23,15 @@
   paths, you're encouraged to buy us a beer. The code is distributed hoping
   that you in fact find it useful, but  without warranty of any kind.
 ------------------------------------------------------------------------*/
+
+// We'll include the Power Management/Reduction and Sleep Mode libraries
+// from the avr-libc, a high quality C library to use with Atmel AVR 
+// microcontrollers.
 #include <avr/sleep.h>
-#include <avr/power.h>
 
 // Initialize variable with the pin numbers we'll be using
 int led_pin = 11;
-int button_pin = 2;
+int detector_pin = 2;
 
 // Initialize a few variables that we'll be using in our loop function
 // for controlling LED brightness
@@ -40,8 +48,19 @@ void setup()
   // the pin with the function analogWrite(), we don't need to set it as
   // an OUTPUT.  It doesn't hurt to do it anyway.
   pinMode(led_pin, OUTPUT);
-  pinMode(button_pin, INPUT_PULLUP);
-  attachInterrupt(0, toggleSleep, CHANGE);
+  // Initialize the pushbutton pin as an input that is internally pulled up
+  // to 5V using the built-in 20~50K resistors (ATmega328p on the Arduino Uno)  
+  pinMode(detector_pin, INPUT_PULLUP);
+  
+  // The Arduino Uno has two external interrupts: number 0 (on pin 2) and 1 
+  // (on pin 3). We use the function attachInterrupt() to specify another
+  // function that will be called when the interrupt occurs (referred to as
+  // an Interrupt Service Routine (ISR)).
+  // 
+  // In this case, the function enableSleep() (can't have arguments/parameters)
+  // will be called when the state of pin 2 (interrupt 0) _changes_ from HIGH
+  // to LOW or viceversa.
+  attachInterrupt(0, enableSleep, CHANGE);
 }
 
 // Most variables can be initialized outside the setup and loop functions
@@ -50,13 +69,17 @@ int step_size = max( (int)value_max/number_of_steps, 1 );
 
 // Initialize the variable that'll help us monitor whether to enter sleep
 // mode or not
-bool sleep_flag = false;
+volatile bool sleep_flag = true;
 
 void loop()
 {
+  // Check whether the flag has been enabled by the ISR (true for the first
+  // run)
   if (sleep_flag)
-    system_sleep();
+    system_sleep(); // function to configure and execute low power mode
 
+  // Code only gets to this point if/when the sleep flag is false, indicating 
+  // that an interrupt event was generated
   analogWrite(led_pin, value); //set the current LED brightness  
   delay(step_delay_ms); //hold the value for a short time
   value+=step_size; //increase the current value for the next iteration
@@ -77,12 +100,15 @@ void system_sleep()
   set_sleep_mode(SLEEP_MODE_PWR_DOWN); // Set sleep mode
   digitalWrite(led_pin, LOW); // Make sure the LED is turned off
   sleep_mode(); // System sleeps here
+  //
   // Code resumes here on wake!
+  //
   sleep_flag = false; //Reset sleep flag on wake
 }
 
-// Named Interrupt Service Routine attached to int.0
-void toggleSleep()
+// Named Interrupt Service Routine attached to int.0 will
+// set the sleep_flag variable to true, thus the main
+void enableSleep()
 {
   sleep_flag = true;
 }

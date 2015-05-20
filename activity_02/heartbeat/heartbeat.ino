@@ -5,7 +5,7 @@
   File: heartbeat.ino
   ------------------------------------------------------------------------
   Description: 
-  Using the fucntion analogWrite(), we control the brightness of an LED by
+  Using the function analogWrite(), we control the brightness of an LED by
   modulating the duty cycle of a rectangular wave signal (PWM).
   ------------------------------------------------------------------------
   Please consider buying products from Acrobotic to help fund future
