@@ -13,7 +13,7 @@
   We'll also use the Serial object from the Arduino libraries to send 
   messages back to the computer via USB.  After the code is uploaded to
   the microcontroller, these messages can be displayed on a computer by 
-  opening the  Serial Monitor window in the Arduino IDE.
+  opening the Serial Monitor window in the Arduino IDE.
   ------------------------------------------------------------------------
   Please consider buying products from Acrobotic to help fund future
   Open-Source projects like this! We’ll always put our best effort in every
@@ -31,10 +31,10 @@
 const int analog_in_pin  = A0; // Analog input pin for potentiometer
 const int analog_out_pin = 11; // PWM pin for LED
 
-// For tracking the sensor readings and frequency we use variables as
+// For tracking the readings and frequency we use variables as
 // their values will change throughout the code
 int read_value = 0;        // value read from the pot
-int frequency = 0;           // value output to the PWM (tone)
+int frequency = 0;         // value output to the PWM (tone)
 
 void setup() {
   // Use the Serial object to initialize serial communications at 9600 bps
