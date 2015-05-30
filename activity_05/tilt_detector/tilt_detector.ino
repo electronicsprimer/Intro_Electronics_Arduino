@@ -24,9 +24,8 @@
   that you in fact find it useful, but  without warranty of any kind.
 ------------------------------------------------------------------------*/
 
-// We'll include the Power Management/Reduction and Sleep Mode libraries
-// from the avr-libc, a high quality C library to use with Atmel AVR 
-// microcontrollers.
+// We'll include the Sleep Mode library from the avr-libc, a high quality 
+//C library to use with Atmel AVR microcontrollers.
 #include <avr/sleep.h>
 
 // Initialize variable with the pin numbers we'll be using
