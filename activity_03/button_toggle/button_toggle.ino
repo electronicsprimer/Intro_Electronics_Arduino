@@ -39,7 +39,9 @@ void setup()
   pinMode(led_pin, OUTPUT);
   // Initialize the pushbutton pin as an input that is internally pulled up
   // to 5V using the built-in 20~50K resistors (ATmega328p on the Arduino Uno)
-  pinMode(button_pin, INPUT_PULLUP);  
+  pinMode(button_pin, INPUT_PULLUP);
+  // Initialize the Serial Object used for USB communication
+  Serial.begin(9600);
 }
 
 void loop()
@@ -65,4 +67,7 @@ void loop()
   digitalWrite(led_pin, led_state);
   // Store the button state for comparison in the next loop iteration
   button_state_old = button_state;
+  // Debugging information sent to the Serial Monitor
+  Serial.print("Button State: ");
+  Serial.println(button_state);
 }
