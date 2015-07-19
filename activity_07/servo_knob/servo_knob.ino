@@ -12,6 +12,7 @@ Servo s;  // create servo object to control a servo
 void setup() 
 { 
   s.attach(servo_pin);  // attaches the servo on pin 9 to the servo object 
+  Serial.begin(9600); // initialize the serial communication
 } 
  
 void loop()
