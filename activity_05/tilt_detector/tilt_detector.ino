@@ -103,6 +103,7 @@ void system_sleep()
   // Code resumes here on wake!
   //
   sleep_flag = false; //Reset sleep flag on wake
+  delay(5);
 }
 
 // Named Interrupt Service Routine attached to int.0 will

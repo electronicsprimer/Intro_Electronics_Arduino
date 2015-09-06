@@ -36,15 +36,15 @@ int read_value = 0;          // value read from the pot
 int volume = 0;              // value output to the PWM (analogWrite)
 
 void setup() {
-  // initialize serial communications at 9600 bps:
+  // initialize serial communications at 9600bps:
   Serial.begin(9600); 
 }
 
 void loop() {
   // Read the current value of the potentiometer
   read_value = analogRead(analog_in_pin);            
-  // map it to the range of the analog out:
-  volume = map(read_value, 0, 1023, 0, 255);  
+  // map it to the range of the analog out
+  volume = map(read_value, 0, 1023, 0, 127);
   
   // change the analog out value:
   analogWrite(analog_out_pin, volume);
